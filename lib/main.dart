@@ -14,13 +14,18 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("genel tekrar"),
-          backgroundColor: Colors.indigo,
+          backgroundColor:
+              Colors.indigo,
           foregroundColor: Colors.white,
         ),
         body: Center(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [Text("Hello, World!")],
+            mainAxisAlignment:
+                MainAxisAlignment
+                    .center,
+            children: [
+              Text("Hello, World!"),
+            ],
           ),
         ),
       ),
